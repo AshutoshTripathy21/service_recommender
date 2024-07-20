@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center mt-10">
+    <h1 class="text-4xl font-bold mb-4">Welcome to the AWS Service Recommender</h1>
+    <p class="text-lg mb-8">Find the best AWS services for your needs by searching or browsing by category.</p>
+    
+    <div class="mb-8">
+        <form action="{% url 'search' %}" method="get" class="inline-block w-2/3">
+            <input type="text" name="q" placeholder="Search for a service..." class="px-4 py-2 w-full rounded-l bg-white shadow">
+            <button type="submit" class="bg-purple-500 text-white px-4 py-2 rounded-r shadow">Search</button>
+        </form>
+    </div>
+
+    <h2 class="text-2xl font-bold mb-4">Browse by Category</h2>
+    <div class="grid grid-cols-3 gap-4">
+        {% for category in categories %}
+            <a href="{% url 'search' %}?q=category:{{ category }}" class="category-box">
+                <span class="text-lg">{{ category }}</span>
+            </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

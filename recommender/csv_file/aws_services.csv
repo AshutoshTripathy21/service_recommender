@@ -1,0 +1,387 @@
+Service,Category,Use Case
+athena,Analytics,Analyze data in Amazon S3 using standard SQL queries.
+bcm-data-exports,Analytics,Export data for analysis and reporting.
+databrew,Analytics,Prepare and clean data for analytics and machine learning.
+emr,Analytics,Process large amounts of data using big data frameworks such as Apache Hadoop and Spark.
+emr-containers,Analytics,Run big data workloads on Amazon EKS and Kubernetes clusters.
+emr-serverless,Analytics,Run big data applications without managing servers.
+es,Analytics,"Search, analyze, and visualize data in real-time using Elasticsearch."
+finspace,Analytics,Manage and analyze financial data in the cloud.
+finspace-data,Analytics,Access and analyze financial data in the cloud.
+glue,Analytics,Prepare and transform data for analytics and machine learning.
+kinesisanalytics,Analytics,Process and analyze real-time streaming data using SQL.
+kinesisanalyticsv2,Analytics,Next generation of Amazon Kinesis Analytics for improved real-time data processing.
+lakeformation,Analytics,"Build, secure, and manage data lakes in the AWS cloud."
+opensearch,Analytics,"Search, analyze, and visualize data in real-time using OpenSearch."
+opensearchserverless,Analytics,Serverless OpenSearch service for real-time data search and analysis.
+pipes,Analytics,Orchestrate data flows between AWS services and external sources
+quicksight,Analytics,Build visualizations and perform ad-hoc analysis on AWS data
+redshift,Analytics,Data warehouse service for analytics using SQL and business intelligence tools
+redshift-data,Analytics,Query and visualize data stored in Amazon Redshift
+redshift-serverless,Analytics,Run Amazon Redshift without managing clusters
+rum,Analytics,Analyze and monitor end-user experiences and performance of web applications
+synthetics,Analytics,Monitor and test application endpoints with synthetic traffic
+sns,Application Integration,Send notifications to applications or users using a fully managed pub/sub messaging service
+sqs,Application Integration,"Decouple and scale microservices, distributed systems, and serverless applications using message queues"
+stepfunctions,Application Integration,Coordinate distributed applications using visual workflows
+swf,Application Integration,Coordinate work across distributed components using Amazon Simple Workflow Service
+managedblockchain,Blockchain,Create and manage scalable blockchain networks.
+managedblockchain-query,Blockchain,Query blockchain data and transactions.
+qldb,Blockchain,Create scalable blockchain networks with Amazon Quantum Ledger Database (QLDB)
+qldb-session,Blockchain,Manage sessions for interacting with Amazon QLDB
+qbusiness,Business Applications,Build and deploy business applications quickly using AWS services
+chatbot,Communication,Integrate AWS with chat platforms to receive notifications and run commands.
+chime,Communication,"Provide communication services for online meetings, video conferencing, and chat."
+chime-sdk-identity,Communication,Manage identities and authentication for Amazon Chime SDK.
+chime-sdk-media-pipelines,Communication,Manage media pipelines for recording and streaming in Amazon Chime SDK.
+chime-sdk-meetings,Communication,Manage meeting resources in Amazon Chime SDK.
+chime-sdk-messaging,Communication,Manage messaging resources in Amazon Chime SDK.
+chime-sdk-voice,Communication,Manage voice resources in Amazon Chime SDK.
+application-autoscaling,Compute,Automatically scale AWS resources based on demand.
+apprunner,Compute,Build and deploy web applications and APIs quickly and easily without managing infrastructure.
+autoscaling,Compute,Automatically adjust the number of Amazon EC2 instances based on demand.
+autoscaling-plans,Compute,Create scaling plans to automate and manage scaling for AWS resources.
+batch,Compute,Run batch computing jobs on AWS.
+compute-optimizer,Compute,Recommend optimal AWS resources for your workloads to reduce costs and improve performance.
+ec2,Compute,Scalable virtual servers in the cloud for running applications.
+ec2-instance-connect,Compute,Securely connect to your EC2 instances using SSH without requiring a bastion host.
+elasticbeanstalk,Compute,Deploy and manage applications in various languages without managing infrastructure.
+imagebuilder,Compute,"Automate the creation, management, and deployment of OS images."
+lambda,Compute,Run code without provisioning or managing servers.
+lightsail,Compute,Simple cloud hosting for small-scale applications.
+ecr,Containers,"Store, manage, and deploy container images securely."
+ecr-public,Containers,Public container image registry for sharing container images with anyone.
+ecs,Containers,Orchestrate and manage containerized applications on AWS.
+eks,Containers,Managed Kubernetes service for running containerized applications.
+eks-auth,Containers,Manage authentication for Amazon EKS clusters.
+applicationcostprofiler,Cost Management,Analyze and profile application costs across AWS resources.
+billingconductor,Cost Management,Manage and allocate billing and costs across different AWS accounts.
+budgets,Cost Management,Set custom cost and usage budgets and receive alerts when you exceed them.
+ce,Cost Management,Analyze and control AWS costs and usage.
+cost-optimization-hub,Cost Management,Manage and optimize costs for AWS resources.
+cur,Cost Management,Access and analyze detailed cost and usage data.
+freetier,Cost Management,Access and manage AWS Free Tier usage and benefits.
+mturk,Crowdsourcing,Access a scalable workforce to complete tasks and gather data.
+connect,Customer Engagement,Cloud-based contact center service for customer engagement.
+connect-contact-lens,Customer Engagement,Analyze customer conversations for sentiment and compliance.
+connectcampaigns,Customer Engagement,Manage outbound communication campaigns for Amazon Connect.
+connectcases,Customer Engagement,Manage and track customer support cases for Amazon Connect.
+connectparticipant,Customer Engagement,Manage participant connections and interactions in Amazon Connect.
+customer-profiles,Customer Engagement,Create unified customer profiles from data across multiple sources.
+ses,Customer Engagement,Send transactional and marketing emails to customers
+sesv2,Customer Engagement,Send personalized transactional and marketing emails using AWS services
+wisdom,Customer Engagement,Provide personalized customer service experiences using AI-powered recommendations
+appflow,Data Integration,Integrate and transfer data between AWS services and SaaS applications.
+dataexchange,Data Integration,Securely exchange data between AWS services and third-party data providers.
+datapipeline,Data Integration,Orchestrate and automate data workflows between AWS services.
+entityresolution,Data Integration,Resolve and match entities across datasets for data integration.
+firehose,Data Integration,Load and transform streaming data into AWS data stores.
+kinesis,Data Integration,Process and analyze real-time streaming data at scale.
+mwaa,Data Integration,Managed Apache Airflow service for workflow automation.
+datazone,Data Management,Manage and govern data across AWS services.
+cleanrooms,Data Privacy,Securely share and analyze data in collaborative environments.
+cleanroomsml,Data Privacy,Manage machine learning models in secure cleanrooms.
+datasync,Data Transfer,Transfer data between on-premises storage and AWS services.
+importexport,Data Transfer,Transfer large amounts of data to and from AWS using physical storage devices.
+dax,Database,"Fully managed, highly available, in-memory cache for DynamoDB."
+docdb,Database,Managed document database service that supports MongoDB workloads.
+docdb-elastic,Database,"Scalable, fully managed document database for large-scale workloads."
+dynamodb,Database,Fully managed NoSQL database service for any scale.
+dynamodbstreams,Database,Capture and process real-time data streams from DynamoDB tables.
+elasticache,Database,Fully managed in-memory data store for Redis and Memcached.
+keyspaces,Database,Managed Cassandra-compatible database service.
+memorydb,Database,Managed in-memory database service compatible with Redis.
+neptune,Database,Managed graph database service for building and running applications with highly connected data.
+neptune-graph,Database,Access and manage graph data in Amazon Neptune.
+neptunedata,Database,Access and manage graph data in Amazon Neptune.
+schemas,Database,Create and manage registries of schemas and metadata
+timestream-influxdb,Database,Store and analyze time-series data with Amazon Timestream and InfluxDB compatibility
+timestream-query,Database,Query and analyze time-series data stored in Amazon Timestream
+timestream-write,Database,Ingest and store time-series data in Amazon Timestream
+dms,Database Migration,Migrate databases to AWS easily and securely.
+rds,Databases,"Relational database service for MySQL, PostgreSQL, SQL Server, etc."
+rds-data,Databases,Execute SQL queries directly against Amazon RDS
+sdb,Databases,Non-relational data storage for storing and querying data items
+amplify,Developer Tools,Develop and deploy full-stack web and mobile applications with serverless backends.
+amplifybackend,Developer Tools,"Manage Amplify backends, including databases, authentication, and APIs."
+amplifyuibuilder,Developer Tools,Build and manage UI components for Amplify applications.
+apptest,Developer Tools,Automate the testing of applications on real devices and in the cloud.
+cloud9,Developer Tools,"Cloud-based integrated development environment (IDE) for writing, running, and debugging code."
+codeartifact,Developer Tools,Securely store and manage artifacts in software development workflows.
+codebuild,Developer Tools,Build and test code with continuous integration and delivery.
+codecatalyst,Developer Tools,Collaborative coding environment for building and deploying applications.
+codecommit,Developer Tools,Secure and scalable source control service for Git repositories.
+codeconnections,Developer Tools,Manage and configure connections to third-party code repositories.
+codedeploy,Developer Tools,"Automate code deployments to any instance, including Amazon EC2 and on-premises servers."
+codeguru-reviewer,Developer Tools,Automate code reviews with machine learning to improve code quality.
+codeguruprofiler,Developer Tools,Analyze application performance and identify bottlenecks.
+codepipeline,Developer Tools,Automate continuous delivery pipelines for fast and reliable application updates.
+codestar,Developer Tools,Manage software development activities in one place.
+codestar-connections,Developer Tools,Manage connections to third-party services for CI/CD pipelines.
+codestar-notifications,Developer Tools,Configure notifications for code development activities.
+devicefarm,Developer Tools,Test mobile and web applications on real devices in the cloud.
+mobile,Developer Tools,"Develop, test, and deploy mobile applications on AWS."
+proton,Developer Tools,Automate infrastructure provisioning and code deployments
+repostspace,Developer Tools,Share code repositories and collaborate on software development
+serverlessrepo,Developer Tools,"Discover, deploy, and publish serverless applications"
+servicecatalog,Developer Tools,Create and manage catalogs of IT services that are approved for use on AWS
+servicecatalog-appregistry,Developer Tools,"Discover, manage, and migrate application resources across AWS"
+xray,Developer Tools,Analyze and debug production and distributed applications with AWS X-Ray
+fis,DevOps,Conduct chaos engineering experiments to improve application resilience.
+clouddirectory,Directory Services,"Manage directory structures for applications requiring a highly available, flexible, and scalable directory."
+ds,Directory Services,Managed Microsoft Active Directory in the AWS Cloud.
+drs,Disaster Recovery,Recover applications and data from disasters with minimal downtime.
+mailmanager,Email,Manage and monitor email communications in the cloud.
+appstream,End User Computing,Stream desktop applications securely to any device.
+workspaces,End User Computing,Virtual desktops in the cloud for remote work scenarios
+workspaces-thin-client,End User Computing,Access Amazon WorkSpaces from compatible thin client devices
+workspaces-web,End User Computing,Access Amazon WorkSpaces from a web browser
+events,Event Management,Deliver real-time events and automate workflows between AWS services.
+gamelift,Gaming,"Deploy, operate, and scale game servers for multiplayer games."
+healthlake,Healthcare,"Store, transform, and analyze health data at scale."
+medical-imaging,Healthcare,Manage and analyze medical images and data.
+omics,Healthcare,"Manage and analyze genomic, transcriptomic, and other omics data."
+outposts,Hybrid Cloud,Run AWS infrastructure and services on-premises for a consistent hybrid experience.
+appintegrations,Integration,Manage and configure application integrations with AWS services.
+b2bi,Integration,Enable secure data exchange and integration with business partners.
+robomaker,Internet of Things,"Develop, simulate, and deploy robotics applications with AWS RoboMaker"
+snow-device-management,Internet of Things,Manage and monitor IoT devices at scale with AWS IoT
+greengrass,IoT,"Build, deploy, and manage edge devices and applications."
+greengrassv2,IoT,Next generation of AWS IoT Greengrass for edge computing.
+iot,IoT,Connect and manage IoT devices securely and at scale.
+iot-data,IoT,Send and receive messages between IoT devices and applications.
+iot-jobs-data,IoT,Manage and monitor jobs for IoT devices.
+iot1click-devices,IoT,Connect and manage simple IoT devices.
+iot1click-projects,IoT,Manage IoT projects and device fleets.
+iotanalytics,IoT,Analyze data from IoT devices and applications.
+iotdeviceadvisor,IoT,Test and validate IoT devices for AWS IoT compatibility.
+iotevents,IoT,Detect and respond to events from IoT devices.
+iotevents-data,IoT,Send and receive messages between IoT devices and applications.
+iotfleethub,IoT,Manage and monitor IoT device fleets.
+iotfleetwise,IoT,"Collect, transform, and transfer vehicle data to the cloud."
+iotsecuretunneling,IoT,Securely access and manage IoT devices remotely.
+iotsitewise,IoT,"Collect, store, and analyze data from industrial equipment."
+iotthingsgraph,IoT,Build and manage IoT applications using a visual workflow.
+iottwinmaker,IoT,Create and manage digital twins of physical systems.
+iotwireless,IoT,"Connect and manage IoT devices using low-power, wide-area networks."
+location,IoT,Add location data and services to your applications.
+panorama,IoT,Analyze video streams locally using computer vision and machine learning.
+bedrock,Machine Learning,Provide a foundation for building and deploying machine learning models.
+bedrock-agent,Machine Learning,Deploy and manage agents for machine learning models.
+bedrock-agent-runtime,Machine Learning,Manage the runtime environment for machine learning agents.
+bedrock-runtime,Machine Learning,Run and manage machine learning models in a production environment.
+comprehend,Machine Learning,Natural language processing (NLP) to derive insights from text.
+comprehendmedical,Machine Learning,Extract and analyze medical information from unstructured text.
+elastic-inference,Machine Learning,Attach low-cost GPU-powered inference acceleration to Amazon EC2 instances.
+forecast,Machine Learning,Generate accurate forecasts using machine learning.
+forecastquery,Machine Learning,Query forecast results and predictions generated by Amazon Forecast.
+kendra,Machine Learning,Enterprise search service powered by machine learning.
+kendra-ranking,Machine Learning,Personalize search results and improve search accuracy.
+lex-models,Machine Learning,Build conversational interfaces using voice and text.
+lex-runtime,Machine Learning,Run and manage Lex-based conversational interfaces.
+lexv2-models,Machine Learning,Next generation of Amazon Lex for improved conversational interfaces.
+lexv2-runtime,Machine Learning,Run and manage Lex-based conversational interfaces.
+lookoutequipment,Machine Learning,Detect abnormal behavior in industrial equipment using machine learning.
+lookoutmetrics,Machine Learning,Detect anomalies in data using machine learning.
+lookoutvision,Machine Learning,Analyze images for anomalies using computer vision.
+machinelearning,Machine Learning,"Build, train, and deploy machine learning models."
+personalize,Machine Learning,Create personalized recommendations for users based on historical data
+personalize-events,Machine Learning,Track real-time user events to improve personalization models
+personalize-runtime,Machine Learning,Retrieve personalized recommendations in real-time
+polly,Machine Learning,Convert text into lifelike speech using deep learning models
+qconnect,Machine Learning,Connect and manage IoT devices securely with AWS IoT
+rbin,Machine Learning,Run interactive notebooks and machine learning experiments on AWS
+rekognition,Machine Learning,"Analyze images and videos to detect objects, scenes, and faces"
+sagemaker,Machine Learning,"Build, train, and deploy machine learning models at scale"
+sagemaker-a2i-runtime,Machine Learning,Integrate human review workflows with Amazon SageMaker
+sagemaker-edge,Machine Learning,Deploy machine learning models on edge devices with Amazon SageMaker
+sagemaker-featurestore-runtime,Machine Learning,"Store, retrieve, and share machine learning features with Amazon SageMaker Feature Store"
+sagemaker-geospatial,Machine Learning,Process geospatial data and build location-based machine learning models
+sagemaker-metrics,Machine Learning,Monitor and analyze metrics for machine learning models deployed with Amazon SageMaker
+sagemaker-runtime,Machine Learning,Deploy and manage machine learning models for inference
+simspaceweaver,Machine Learning,Design and simulate digital twins with AWS IoT
+textract,Machine Learning,Extract text and data from documents using machine learning
+transcribe,Machine Learning,Convert speech to text with machine learning
+translate,Machine Learning,Translate text between languages with machine learning
+voice-id,Machine Learning,Verify and authenticate speakers using voice biometrics
+account,Management,"Manage AWS accounts, including account settings and billing."
+amp,Management,Manage AWS resources with an access management platform.
+appconfig,Management,Manage application configuration and feature toggles for applications of any scale.
+appconfigdata,Management,Retrieve configuration data from AppConfig.
+appfabric,Management,Orchestrate and automate application deployment and management.
+cloudcontrol,Management,Unified management of cloud resources across AWS services.
+cloudformation,Management,Model and set up AWS resources using templates.
+controltower,Management,"Set up and govern a secure, multi-account AWS environment."
+dlm,Management,"Automate the creation, retention, and deletion of EBS snapshots and volumes."
+launch-wizard,Management,Automate the deployment of enterprise applications on AWS.
+license-manager,Management,Manage software licenses across AWS and on-premises environments.
+license-manager-linux-subscriptions,Management,Manage and optimize Linux subscription costs.
+license-manager-user-subscriptions,Management,Manage user-based software subscriptions.
+opsworks,Management,Automate the deployment and management of applications using Chef and Puppet.
+opsworkscm,Management,Manage and automate infrastructure configurations using Chef and Puppet.
+organizations,Management,Manage and govern multiple AWS accounts within your organization.
+osis,Management,Securely share resources and data across multiple AWS accounts.
+pi,Management & Governance,Analyze AWS resource utilization and costs with Performance Insights
+pricing,Management & Governance,Retrieve AWS pricing information programmatically
+ram,Management & Governance,Share AWS resources securely across AWS accounts
+resiliencehub,Management & Governance,Monitor and manage operational resilience of AWS resources
+resource-explorer-2,Management & Governance,Visualize and understand AWS resource relationships and dependencies
+resource-groups,Management & Governance,Organize and manage AWS resources using resource groups
+resourcegroupstaggingapi,Management & Governance,Tag AWS resources and manage them based on tags
+savingsplans,Management & Governance,Save on AWS usage with flexible pricing models
+scheduler,Management & Governance,Automate and schedule AWS tasks and workflows
+service-quotas,Management & Governance,Manage and track service usage quotas for AWS services
+ssm,Management & Governance,Automate operational tasks on AWS resources
+ssm-contacts,Management & Governance,Manage contacts and escalation plans for AWS Systems Manager incidents
+ssm-incidents,Management & Governance,Manage and resolve incidents using AWS Systems Manager
+ssm-sap,Management & Governance,Manage and automate SAP systems on AWS
+supplychain,Management & Governance,Optimize supply chain operations using AWS services
+support,Management & Governance,Access AWS Support resources and manage support cases
+support-app,Management & Governance,Access AWS Support resources and manage support cases via mobile app
+taxsettings,Management & Governance,Configure and manage tax settings for AWS services
+trustedadvisor,Management & Governance,Optimize AWS environments with best practices and recommendations
+wellarchitected,Management & Governance,Review and improve the architecture of AWS workloads using best practices
+marketplace-agreement,Marketplace,Manage agreements and contracts for AWS Marketplace products.
+marketplace-catalog,Marketplace,Manage product listings and catalogs for AWS Marketplace.
+marketplace-deployment,Marketplace,Deploy and manage AWS Marketplace products in your AWS environment.
+marketplace-entitlement,Marketplace,Manage entitlements and licenses for AWS Marketplace products.
+marketplacecommerceanalytics,Marketplace,Access and analyze AWS Marketplace usage and billing data.
+meteringmarketplace,Marketplace,Measure and analyze AWS Marketplace usage and billing data.
+deadline,Media Services,Render and manage media content with a scalable render farm.
+elastictranscoder,Media Services,Convert media files in the cloud to different formats for playback on various devices.
+ivs,Media Services,Build and manage live video streaming applications.
+ivs-realtime,Media Services,Real-time interactive video streaming service.
+ivschat,Media Services,Add chat capabilities to live streaming applications.
+kinesis-video-archived-media,Media Services,Stream and store video data in real-time.
+kinesis-video-media,Media Services,Process and analyze real-time video streams.
+kinesis-video-signaling,Media Services,Securely transmit and receive video streams over WebRTC.
+kinesis-video-webrtc-storage,Media Services,Store and retrieve video streams transmitted over WebRTC.
+kinesisvideo,Media Services,Build applications that process or analyze streaming video data.
+mediaconnect,Media Services,Transport live video securely and reliably.
+mediaconvert,Media Services,Convert and package media content for delivery to various devices.
+medialive,Media Services,Create and manage live video streams.
+mediapackage,Media Services,Package and deliver live video streams to any device.
+mediapackage-vod,Media Services,Package and deliver on-demand video streams.
+mediapackagev2,Media Services,Next generation of AWS Elemental MediaPackage for improved video packaging and delivery.
+mediatailor,Media Services,Insert ads into video streams for personalized viewing experiences.
+nimble,Media Services,Build and manage virtual workstations for creative professionals.
+kafka,Messaging,Managed Apache Kafka service for building real-time data streaming applications.
+kafkaconnect,Messaging,Connect Apache Kafka with other AWS services and third-party data sources.
+mq,Messaging,Managed message broker service for Apache ActiveMQ and RabbitMQ.
+discovery,Migration,Discover on-premises applications and their dependencies for migration planning.
+m2,Migration,Mainframe application modernization and migration to AWS.
+mgh,Migration,Manage and track application migrations to AWS.
+mgn,Migration,Migrate applications to AWS with minimal downtime.
+migration-hub-refactor-spaces,Migration,Simplify the migration of microservices-based applications to AWS.
+migrationhub-config,Migration,Configure and manage application migrations using AWS Migration Hub.
+migrationhuborchestrator,Migration,Orchestrate application migrations using AWS Migration Hub.
+migrationhubstrategy,Migration,Assess and plan application migrations to AWS.
+sms,Migration & Transfer,Migrate on-premises applications to AWS
+snowball,Migration & Transfer,Transfer large amounts of data into and out of AWS using physical devices
+transfer,Migration & Transfer,"Transfer files securely over SSH using SFTP, FTPS, and FTP"
+pinpoint,Mobile,"Engage with users through targeted email, SMS, and push notifications"
+pinpoint-email,Mobile,Send personalized transactional and promotional emails to users
+pinpoint-sms-voice,Mobile,Send SMS and voice messages programmatically
+pinpoint-sms-voice-v2,Mobile,Enhanced version of SMS and voice messaging service
+qapps,Mobile,"Develop, deploy, and manage mobile apps with AWS"
+sms-voice,Mobile,Send SMS messages programmatically
+tnb,Mobile,"Develop, deploy, and manage mobile apps with AWS"
+application-insights,Monitoring,Monitor and analyze application performance and health.
+application-signals,Monitoring,Collect and analyze application signals for performance monitoring.
+cloudwatch,Monitoring,Monitor AWS resources and applications in real-time.
+devops-guru,Monitoring,Identify operational issues and recommend fixes using machine learning.
+evidently,Monitoring,Monitor and analyze application performance and user experience.
+grafana,Monitoring,Visualize and analyze operational data using Grafana dashboards.
+internetmonitor,Monitoring,Monitor and analyze internet connectivity and performance.
+logs,Monitoring,"Collect, monitor, and analyze log data from AWS services."
+oam,Monitoring,"Monitor and manage AWS Observability, Analytics, and Management services."
+apigateway,Networking,"Create, publish, and manage RESTful APIs at any scale."
+apigatewaymanagementapi,Networking,Manage runtime aspects of your deployed APIs.
+apigatewayv2,Networking,"Manage WebSocket APIs, HTTP APIs, and REST APIs."
+appmesh,Networking,Manage microservices with a service mesh for providing application-level networking.
+appsync,Networking,Build data-driven applications with real-time and offline capabilities using GraphQL APIs.
+arc-zonal-shift,Networking,Manage zonal shifts to maintain high availability during zone disruptions.
+cloudfront,Networking,Deliver content with low latency and high transfer speeds via a global network.
+cloudfront-keyvaluestore,Networking,Store and manage key-value pairs for CloudFront distributions.
+directconnect,Networking,Establish dedicated network connections between your on-premises networks and AWS.
+elb,Networking,Distribute incoming application traffic across multiple targets.
+elbv2,Networking,Next generation of Elastic Load Balancing with support for HTTP/2 and WebSocket.
+globalaccelerator,Networking,Improve application availability and performance with a global network.
+networkmanager,Networking,Monitor and manage your global network infrastructure.
+networkmonitor,Networking,Monitor and analyze network performance and connectivity.
+privatenetworks,Networking & Content Delivery,Create isolated networking environments using AWS PrivateLink
+route53,Networking & Content Delivery,Domain Name System (DNS) web service
+route53-recovery-cluster,Networking & Content Delivery,Recover Amazon Route 53 Resolver DNS configurations
+route53-recovery-control-config,Networking & Content Delivery,Control the readiness of AWS resources in case of recovery situations
+route53-recovery-readiness,Networking & Content Delivery,Assess and report on the readiness of AWS resources for recovery
+route53domains,Networking & Content Delivery,Domain name registration and management
+route53profiles,Networking & Content Delivery,Manage Amazon Route 53 Resolver query logging and analytics
+route53resolver,Networking & Content Delivery,Hybrid cloud DNS resolution
+servicediscovery,Networking & Content Delivery,Discover and connect AWS services and other resources using service discovery
+vpc-lattice,Networking & Content Delivery,Manage AWS networking and VPCs with a lattice architecture
+workdocs,Productivity & Collaboration,"Store, share, and collaborate on documents with AWS WorkDocs"
+worklink,Productivity & Collaboration,Provide secure access to internal websites and web apps from mobile devices
+workmail,Productivity & Collaboration,Secure email and calendaring service
+workmailmessageflow,Productivity & Collaboration,Track email events and analyze email flows with AWS WorkMail
+braket,Quantum Computing,Explore and experiment with quantum computing.
+groundstation,Satellite,Manage and automate satellite communications and data processing.
+cloudsearch,Search,"Set up, manage, and scale a search solution for your website or application."
+cloudsearchdomain,Search,Domain-specific CloudSearch API for managing search domains.
+accessanalyzer,Security,Analyze and report resource access policies to help identify security risks.
+acm,Security,Provision and manage SSL/TLS certificates for securing network communications.
+acm-pca,Security,Create and manage private certificate authorities (CAs) for issuing and managing private SSL/TLS certificates.
+artifact,Security,Access AWS compliance reports and agreements.
+auditmanager,Security,"Simplify audit preparation by automating the collection, organization, and assessment of evidence."
+cloudhsm,Security,Hardware security module for generating and using encryption keys.
+cloudhsmv2,Security,Next-generation hardware security module for generating and using encryption keys.
+cloudtrail,Security,Monitor and log account activity across your AWS infrastructure.
+cloudtrail-data,Security,Analyze and manage CloudTrail data.
+codeguru-security,Security,Identify and remediate security issues in your code.
+cognito-identity,Security,Manage user authentication and access control for web and mobile applications.
+cognito-idp,Security,Provide identity provider functionality for Amazon Cognito.
+cognito-sync,Security,Synchronize user data across devices for Amazon Cognito.
+config,Security,Track and manage configuration changes to AWS resources.
+controlcatalog,Security,Manage a catalog of controls for AWS services.
+detective,Security,Analyze and investigate security issues across AWS accounts.
+fms,Security,Centrally manage and enforce firewall rules across your AWS accounts.
+frauddetector,Security,Detect and prevent fraudulent activities using machine learning.
+guardduty,Security,Continuous security monitoring to protect your AWS accounts and workloads.
+iam,Security,Manage access and permissions for AWS resources.
+identitystore,Security,Manage and authenticate identities for AWS services.
+inspector,Security,Automatically assess applications for vulnerabilities and compliance.
+inspector-scan,Security,Scan for security vulnerabilities and compliance issues.
+inspector2,Security,Next generation of Amazon Inspector for improved security assessments.
+kms,Security,Create and manage cryptographic keys for AWS services.
+macie2,Security,"Automatically discover, classify, and protect sensitive data in AWS."
+network-firewall,Security,Deploy and manage network firewalls to protect AWS VPCs.
+payment-cryptography,Security,Manage and secure cryptographic keys for payment processing.
+payment-cryptography-data,Security,
+pca-connector-ad,Security & Identity,Connect AWS Directory Service with Private Certificate Authority
+pca-connector-scep,Security & Identity,Manage Certificate Issuance using Simple Certificate Enrollment Protocol (SCEP)
+rolesanywhere,Security & Identity,Manage AWS IAM roles and permissions across multiple AWS accounts
+secretsmanager,Security & Identity,Securely store and manage access to sensitive information such as API keys and passwords
+securityhub,Security & Identity,Centralize security findings across AWS accounts to simplify security compliance
+securitylake,Security & Identity,Store and analyze security data in a data lake
+shield,Security & Identity,Detect and mitigate DDoS attacks on AWS applications
+signer,Security & Identity,Sign code and executables for security verification and integrity
+sso,Security & Identity,Centralize access to multiple AWS accounts and business applications
+sso-admin,Security & Identity,Manage access centrally for AWS accounts and business applications
+sso-oidc,Security & Identity,Enable single sign-on (SSO) access to AWS and business applications using OpenID Connect (OIDC)
+sts,Security & Identity,"Grant temporary, limited-access credentials to AWS resources"
+verifiedpermissions,Security & Identity,Verify permissions granted via AWS Identity and Access Management (IAM)
+waf,Security & Identity,Protect web applications from common web exploits and attacks
+waf-regional,Security & Identity,"Protect web applications deployed on AWS CloudFront, API Gateway, and AppSync"
+wafv2,Security & Identity,Protect web applications with an enhanced version of AWS WAF
+backup,Storage,Automate backup and restore for AWS resources.
+backup-gateway,Storage,Enable backup and restore for on-premises applications to the AWS Cloud.
+ebs,Storage,Provide scalable block storage for use with Amazon EC2.
+efs,Storage,"Scalable, elastic file storage for use with Amazon EC2."
+fsx,Storage,Fully managed file storage built on Windows File Server and Lustre.
+glacier,Storage,Low-cost cloud storage service for data archiving and long-term backup.
+mediastore,Storage,Store and manage media content in the cloud.
+mediastore-data,Storage,Store and manage media content in the cloud.
+s3,Storage,Scalable object storage for data storage and retrieval
+s3control,Storage,Manage access and permissions for Amazon S3 buckets centrally
+s3outposts,Storage,Deploy Amazon S3 on AWS Outposts for hybrid cloud storage
+storagegateway,Storage,Hybrid cloud storage integration with on-premises infrastructure
+health,Support,Access and manage AWS Health events and notifications.

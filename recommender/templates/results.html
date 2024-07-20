@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<h1 class="text-2xl font-bold mb-4">Search Results for "{{ query }}"</h1>
+<ul class="space-y-4">
+    {% for service, use_case in page_obj %}
+        <li class="bg-white p-4 rounded shadow">
+            <strong>AWS {{ service }}</strong>: {{ use_case }}
+        </li>
+    {% endfor %}
+</ul>
+
+<div class="mt-4">
+    <div class="flex justify-center space-x-2">
+        {% if page_obj.has_previous %}
+            <a href="?q={{ query }}&page=1" class="px-3 py-1 bg-blue-500 text-white rounded">« First</a>
+            <a href="?q={{ query }}&page={{ page_obj.previous_page_number }}" class="px-3 py-1 bg-blue-500 text-white rounded">Previous</a>
+        {% endif %}
+
+        <span class="px-3 py-1 bg-gray-200 rounded">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+
+        {% if page_obj.has_next %}
+            <a href="?q={{ query }}&page={{ page_obj.next_page_number }}" class="px-3 py-1 bg-blue-500 text-white rounded">Next</a>
+            <a href="?q={{ query }}&page={{ page_obj.paginator.num_pages }}" class="px-3 py-1 bg-blue-500 text-white rounded">Last »</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
