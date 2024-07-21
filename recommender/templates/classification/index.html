@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Classify Problem Statement{% endblock %}
+
+{% block content %}
+<div class="container mx-auto mt-10">
+    <div class="text-center">
+        <h1 class="text-3xl font-bold mb-4">Classification Results</h1>
+        {% if domains and subcategories %}
+            <div class="mb-6">
+                <h2 class="text-2xl font-bold">Identified Domains:</h2>
+                <ul>
+                    {% for domain in domains %}
+                    <li>{{ domain }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h2 class="text-2xl font-bold">Subcategories:</h2>
+                {% for domain, subcategories in subcategories.items %}
+                <div class="mb-4">
+                    <h3 class="text-xl font-bold">{{ domain }}</h3>
+                    <ul>
+                        {% for subcategory in subcategories %}
+                        <li>{{ subcategory }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="text-lg">Enter a problem statement to classify its domains and subcategories.</p>
+        {% endif %}
+    </div>
+</div>
+<div class="classification-form">
+    <form action="{% url 'classify' %}" method="post" class="w-full">
+        {% csrf_token %}
+        <div class="flex items-center justify-center">
+            <input type="text" name="problem_statement" placeholder="Enter your problem statement..." class="px-4 py-2 w-3/4 rounded-l bg-white shadow" value="{{ user_input }}">
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r shadow">Classify</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Classification Results{% endblock %}
+
+{% block content %}
+<div class="bg-white p-6 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold mb-4">Classification Results</h1>
+    
+    {% if domains %}
+        <h2 class="text-xl font-semibold mt-6">Identified Domains:</h2>
+        <ul class="list-disc list-inside">
+            {% for domain in domains %}
+                <li>{{ domain }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2 class="text-xl font-semibold mt-6">Subcategories:</h2>
+        <ul class="list-disc list-inside">
+            {% for domain, subs in subcategories.items %}
+                <li><strong>{{ domain }}:</strong>
+                    <ul class="list-disc list-inside ml-4">
+                        {% for sub in subs %}
+                            <li>{{ sub }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No relevant domains or subcategories found for the given problem statement.</p>
+    {% endif %}
+</div>
+{% endblock %}

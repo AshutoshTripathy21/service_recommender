@@ -8,13 +8,44 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <!-- Optional: Add Tailwind CSS for additional styling -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        nav {
+            background: linear-gradient(270deg, #188e95, #b9dede, #33545c);
+            background-size: 600% 600%;
+            animation: gradient 15s ease infinite;
+        }
+
+        nav.fixed {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        body {
+            padding-top: 64px; /* Adjust based on the height of your nav */
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
-    <nav class="bg-blue-600 p-4 text-white">
+    <nav class="bg-blue-600 p-4 text-white fixed">
         <div class="container mx-auto">
-            <a href="{% url 'home' %}" class="text-lg font-bold">AWS Service Recommender</a>
+            <a href="{% url 'home' %}" class="text-black font-bold">AWS Service Recommender</a>
+            <a href="{% url 'classify' %}" class="ml-4 text-black">Classify</a>
         </div>
-    </nav>
+    </nav>    
     <main class="container mx-auto mt-10">
         {% block content %}{% endblock %}
     </main>
