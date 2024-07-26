@@ -153,7 +153,7 @@ domain_keywords = {
     "Brand Communications & PR": {
         "mandatory": ["brand strategy", "media relations", "publicity", "crisis management", "PR", "brand communications", 
                       "media outreach", "public relations strategy", "brand communication", "reputation building", 
-                      "brand positioning", "media engagement", "PR campaigns", "brand storytelling", "crisis communication"],
+                      "brand positioning", "media engagement", "PR campaigns", "brand storytelling", "crisis communication", "public relations"],
         "optional": ["press releases", "media kits", "public statements", "crisis response", "brand reputation", 
                      "media coverage", "public image", "media partnerships", "media outreach", "branding", "media events", 
                      "PR strategy", "social media PR", "media training", "press conferences", "brand consistency", 
