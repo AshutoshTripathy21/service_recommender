@@ -151,14 +151,17 @@ domain_keywords = {
         
     },
     "Brand Communications & PR": {
-        "mandatory": ["brand messaging", "brand identity", "media relations"],
+        "mandatory": ["brand messaging", "brand identity", "media relations", "public", "relation", "public relations", "brand", "strategy", "brand strategy", "brand awareness", "community engagement", "social media strategy", "influencer marketing", "media relations", "press releases", "reputation management"],
         "optional": ["brand awareness", "reputation management", "brand positioning", "press releases",
                      "media coverage", "influencer marketing", "media strategy", "content creation",
                      "storytelling", "social media strategy", "community engagement", "audience", "creating narratives",
                      "enhance", "build reputation", "self-produced communications", "marketing efforts",
                      "face-to-face engagements", "surveys", "blogs", "channels", "feedback", "public relations",
                      "crisis communication", "communication plan", "brand advocacy", "corporate communication",
-                     "event management", "media outreach", "press conferences", "media training"],
+                     "event management", "media outreach", "press conferences", "media training", "messaging strategy", "consistent messaging", "communication strategy", "business", "identity", "image", "visual identity", "logo design",
+                     "recognition", "campaigns", "visibility", "public relation crisis", "reputation repair",
+                     "influencer partnerships", "influencer collaborations", "media coverage", "news coverage", "press statements", "media pitching",
+                     "narrative building", "audience engagement", "social media content"],
          "Subcategories": [
             "Discovering Your Audience", "Storytelling", 
             "Lesser Burn Out", "Public Outreach"
